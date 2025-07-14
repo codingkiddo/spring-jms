@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 21
+Implementation-Title: spring-jms
+Implementation-Version: 0.0.1-SNAPSHOT
+Main-Class: com.spring_boot_modules.bootstrap.Application
+Created-By: Maven Integration for Eclipse
+
