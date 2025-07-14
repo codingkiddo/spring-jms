@@ -1,4 +1,4 @@
-package com.spring_jms;
+package com.spring_jms.config;
 
 import org.apache.activemq.ActiveMQConnectionFactory;
 import org.apache.activemq.broker.BrokerService;
@@ -11,6 +11,8 @@ import org.springframework.jms.connection.CachingConnectionFactory;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.jms.listener.DefaultMessageListenerContainer;
 import org.springframework.jms.listener.MessageListenerContainer;
+
+import com.spring_jms.consumer.MessageConsumer;
 
 import jakarta.jms.ConnectionFactory;
 import jakarta.jms.Destination;
