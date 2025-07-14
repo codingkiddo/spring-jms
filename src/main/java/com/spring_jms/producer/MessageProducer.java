@@ -1,4 +1,4 @@
-package com.spring_jms;
+package com.spring_jms.producer;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jms.core.JmsTemplate;

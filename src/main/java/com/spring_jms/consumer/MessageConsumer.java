@@ -1,4 +1,4 @@
-package com.spring_jms;
+package com.spring_jms.consumer;
 
 import org.springframework.stereotype.Component;
 
