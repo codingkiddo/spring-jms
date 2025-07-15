@@ -20,6 +20,8 @@ public class SpringJmsApplicatoin implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		messageProducer.sendMessageToDestination("Hello JMS !!!!!!");
+		Thread.sleep(10000);
+		messageProducer.sendMessageToDestination("Bye JMS !!!!!!");
 	}
 
 }
