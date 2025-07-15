@@ -51,7 +51,6 @@ public class Configurations {
 	public JmsTemplate jmsTemplate(ConnectionFactory connectionFactory, Destination destination) {
 		JmsTemplate jmsTemplate = new JmsTemplate(connectionFactory);
 		jmsTemplate.setDefaultDestination(destination);
-
 		return jmsTemplate;
 	}
 
@@ -62,7 +61,6 @@ public class Configurations {
 		defaultMessageListenerContainer.setConnectionFactory(connectionFactory);
 		defaultMessageListenerContainer.setDestination(destination);
 		defaultMessageListenerContainer.setMessageListener(messageConsumer);
-
 		return defaultMessageListenerContainer;
 	}
 }
